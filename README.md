@@ -1,6 +1,6 @@
-## Testing dbt project: `jaffle_shop`
+## Testing dbt project: `bake_shop`
 
-`jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
+`bakee_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
 
 ### What is this repo?
 What this repo _is_:
@@ -19,7 +19,7 @@ This repo contains [seeds](https://docs.getdbt.com/docs/building-a-dbt-project/s
 
 The raw data consists of customers, orders, and payments, with the following entity-relationship diagram:
 
-![Jaffle Shop ERD](/etc/jaffle_shop_erd.png)
+![Bake Shop ERD](/etc/jaffle_shop_erd.png)
 
 
 ### Running this project
@@ -29,10 +29,6 @@ To get up and running with this project:
 2. Create an endpoint for your chosen data platform, e.g. Databricks or Snowflake.
 
 3. Create a LiveData Hub Transformation, using this project and a trigger based on the arrival of new data into the target cloud storage of your choice.
-
-
-### What is a jaffle?
-A jaffle is a toasted sandwich with crimped, sealed edges. Invented in Bondi in 1949, the humble jaffle is an Australian classic. The sealed edges allow jaffle-eaters to enjoy liquid fillings inside the sandwich, which reach temperatures close to the core of the earth during cooking. Often consumed at home after a night out, the most classic filling is tinned spaghetti, while my personal favourite is leftover beef stew with melted cheese.
 
 ---
 For more information on dbt:
